@@ -1,0 +1,46 @@
+fileFormatVersion: 2
+guid: 6f89de6b3fc18478a99965258b786b59
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - f01: {fileID: 21300000, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f02: {fileID: 21300002, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f03: {fileID: 21300004, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f04: {fileID: 21300006, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f05: {fileID: 21300008, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f06: {fileID: 21300010, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f07: {fileID: 21300012, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f08: {fileID: 21300014, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f09: {fileID: 21300016, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f10: {fileID: 21300018, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f11: {fileID: 21300020, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f12: {fileID: 21300022, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f13: {fileID: 21300024, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f14: {fileID: 21300026, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f15: {fileID: 21300028, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f16: {fileID: 21300030, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f17: {fileID: 21300032, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f18: {fileID: 21300034, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f19: {fileID: 21300036, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f20: {fileID: 21300038, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f21: {fileID: 21300040, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f22: {fileID: 21300042, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f23: {fileID: 21300044, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f24: {fileID: 21300046, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f25: {fileID: 21300048, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f26: {fileID: 21300050, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f27: {fileID: 21300052, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f28: {fileID: 21300054, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f29: {fileID: 21300056, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f30: {fileID: 21300058, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f31: {fileID: 21300060, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f32: {fileID: 21300062, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f33: {fileID: 21300064, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f34: {fileID: 21300066, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  - f35: {fileID: 21300068, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

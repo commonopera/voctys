@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1120381937328130}
+  m_IsPrefabAsset: 1
+--- !u!1 &1120381937328130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4933539607324826}
+  - component: {fileID: 212630949544209606}
+  - component: {fileID: 114489230281416092}
+  - component: {fileID: 114366794168229970}
+  m_Layer: 0
+  m_Name: atb_reset_meir
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4933539607324826
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1120381937328130}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.16, y: 2.36, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114366794168229970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1120381937328130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20793dd9c8e2a4c528f55dcfecfd6e1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chelbo: 0
+  elazar: 0
+  komlin: 0
+  machir: 0
+  meir: 1
+  natronai: 0
+  shabsai: 0
+  sulam: 0
+  uri: 0
+  zuiskind: 0
+  golem: 0
+--- !u!114 &114489230281416092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1120381937328130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f89de6b3fc18478a99965258b786b59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  f01: {fileID: 21300000, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f02: {fileID: 21300002, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f03: {fileID: 21300004, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f04: {fileID: 21300006, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f05: {fileID: 21300008, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f06: {fileID: 21300010, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f07: {fileID: 21300012, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f08: {fileID: 21300014, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f09: {fileID: 21300016, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f10: {fileID: 21300018, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f11: {fileID: 21300020, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f12: {fileID: 21300022, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f13: {fileID: 21300024, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f14: {fileID: 21300026, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f15: {fileID: 21300028, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f16: {fileID: 21300030, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f17: {fileID: 21300032, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f18: {fileID: 21300034, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f19: {fileID: 21300036, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f20: {fileID: 21300038, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f21: {fileID: 21300040, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f22: {fileID: 21300042, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f23: {fileID: 21300044, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f24: {fileID: 21300046, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f25: {fileID: 21300048, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f26: {fileID: 21300050, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f27: {fileID: 21300052, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f28: {fileID: 21300054, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f29: {fileID: 21300056, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f30: {fileID: 21300058, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f31: {fileID: 21300060, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f32: {fileID: 21300062, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f33: {fileID: 21300064, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f34: {fileID: 21300066, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  f35: {fileID: 21300068, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  waittime: 0.4
+  itsname: meir
+--- !u!212 &212630949544209606
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1120381937328130}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 11
+  m_Sprite: {fileID: 21300000, guid: d6ea3b580b5464c22bb1981e390e8606, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 1
+  m_DrawMode: 0
+  m_Size: {x: 1.1, y: 0.7}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
