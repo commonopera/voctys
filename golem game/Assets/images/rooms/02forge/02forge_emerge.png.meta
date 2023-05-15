@@ -1,15 +1,27 @@
 fileFormatVersion: 2
 guid: 267c2e94d68ad4a309f81a6dfc1fed32
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: 02forge_emerge_0
-    21300002: 02forge_emerge_1
-    21300004: 02forge_emerge_2
-    21300006: 02forge_emerge_3
-    21300008: 02forge_emerge_4
-    21300010: 02forge_emerge_5
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: 02forge_emerge_0
+  - first:
+      213: 21300002
+    second: 02forge_emerge_1
+  - first:
+      213: 21300004
+    second: 02forge_emerge_2
+  - first:
+      213: 21300006
+    second: 02forge_emerge_3
+  - first:
+      213: 21300008
+    second: 02forge_emerge_4
+  - first:
+      213: 21300010
+    second: 02forge_emerge_5
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -29,6 +41,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -38,8 +52,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -60,11 +74,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -75,7 +94,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -86,7 +106,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -97,6 +118,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -116,6 +150,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8bb5a629c7e7740b79d81e721d2157b7
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -136,6 +171,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d1d29ab1eb2154dd5831714cd483a8ce
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -156,6 +192,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 50aeb7b681c32467f828141112be6d6a
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -176,6 +213,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ddc9670c64bc44b78a32585d4dcfbc49
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -196,6 +234,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fdff30be22f564c71a20b6963414228c
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -216,6 +255,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b89fd265f101a4775879a17be2c5c8fe
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -224,10 +264,19 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: e3afa096425bf4997852bbae1669285b
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      02forge_emerge_2: 21300004
+      02forge_emerge_5: 21300010
+      02forge_emerge_1: 21300002
+      02forge_emerge_0: 21300000
+      02forge_emerge_3: 21300006
+      02forge_emerge_4: 21300008
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

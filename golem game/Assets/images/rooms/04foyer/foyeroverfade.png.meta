@@ -1,15 +1,27 @@
 fileFormatVersion: 2
 guid: 69b28f3570516496f86a6d065e187f89
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: foyeroverfade_0
-    21300002: foyeroverfade_1
-    21300004: foyeroverfade_2
-    21300006: foyeroverfade_3
-    21300008: foyeroverfade_4
-    21300010: foyeroverfade_5
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: foyeroverfade_0
+  - first:
+      213: 21300002
+    second: foyeroverfade_1
+  - first:
+      213: 21300004
+    second: foyeroverfade_2
+  - first:
+      213: 21300006
+    second: foyeroverfade_3
+  - first:
+      213: 21300008
+    second: foyeroverfade_4
+  - first:
+      213: 21300010
+    second: foyeroverfade_5
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -29,6 +41,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -38,8 +52,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -60,11 +74,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -75,7 +94,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -86,7 +106,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -97,6 +118,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -116,6 +150,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 31651ee99936647f390faf52dd87d6f6
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -136,6 +171,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9b43a5f1f5e1a47f2afdb9b9e8d6ef03
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -156,6 +192,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e429c7f8ccaeb44a78df4bd2fd155ae5
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -176,6 +213,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8132404cd277746a083f0c302d73d96d
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -196,6 +234,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 747c471ffeb0d4459a27d9dbc5e9e801
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -216,6 +255,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: bf30f914cce7d484ab3a40396e3cab16
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -224,10 +264,19 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: dea7d9d542f74448e95cc59f510678b0
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      foyeroverfade_1: 21300002
+      foyeroverfade_4: 21300008
+      foyeroverfade_3: 21300006
+      foyeroverfade_2: 21300004
+      foyeroverfade_0: 21300000
+      foyeroverfade_5: 21300010
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

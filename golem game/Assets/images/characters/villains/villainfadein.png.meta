@@ -1,25 +1,57 @@
 fileFormatVersion: 2
 guid: 8197fcdfe6fca4a9085597e74426c1b2
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: villainfadein_0
-    21300002: villainfadein_1
-    21300004: villainfadein_2
-    21300006: villainfadein_3
-    21300008: villainfadein_4
-    21300010: villainfadein_5
-    21300012: villainfadein_6
-    21300014: villainfadein_7
-    21300016: villainfadein_8
-    21300018: villainfadein_9
-    21300020: villainfadein_10
-    21300022: villainfadein_11
-    21300024: villainfadein_12
-    21300026: villainfadein_13
-    21300028: villainfadein_14
-    21300030: villainfadein_15
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: villainfadein_0
+  - first:
+      213: 21300002
+    second: villainfadein_1
+  - first:
+      213: 21300004
+    second: villainfadein_2
+  - first:
+      213: 21300006
+    second: villainfadein_3
+  - first:
+      213: 21300008
+    second: villainfadein_4
+  - first:
+      213: 21300010
+    second: villainfadein_5
+  - first:
+      213: 21300012
+    second: villainfadein_6
+  - first:
+      213: 21300014
+    second: villainfadein_7
+  - first:
+      213: 21300016
+    second: villainfadein_8
+  - first:
+      213: 21300018
+    second: villainfadein_9
+  - first:
+      213: 21300020
+    second: villainfadein_10
+  - first:
+      213: 21300022
+    second: villainfadein_11
+  - first:
+      213: 21300024
+    second: villainfadein_12
+  - first:
+      213: 21300026
+    second: villainfadein_13
+  - first:
+      213: 21300028
+    second: villainfadein_14
+  - first:
+      213: 21300030
+    second: villainfadein_15
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -39,6 +71,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -48,8 +82,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -70,11 +104,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 128
     resizeAlgorithm: 0
@@ -85,7 +124,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 128
     resizeAlgorithm: 0
@@ -96,7 +136,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 128
     resizeAlgorithm: 0
@@ -107,7 +148,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 128
     resizeAlgorithm: 0
@@ -118,6 +160,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -137,6 +192,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b3c13574efc004817bffda9ef983d276
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -157,6 +213,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f19b19e5f080641f8843e4c7ec281ace
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -177,6 +234,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 49796f79eb591473fa85c97baa921989
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -197,6 +255,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b5780424f235e4e07b18a006bce873ac
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -217,6 +276,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ec7940888563843c681b8edc751078f6
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -237,6 +297,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 32ca85274aa4d451d861ba43f6f167bc
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -257,6 +318,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a47f18aab095945b0b34132d8c43ae01
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -277,6 +339,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: eeb719b28187e406f988e99e401cc333
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -297,6 +360,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 01d2e265da66e4bdcb68d3f3e8b5f8a4
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -317,6 +381,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 87adb0951b7d444388613351ee31178f
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -337,6 +402,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 49e2d2cc62c85494e9e16eee33c6e02d
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
@@ -357,6 +423,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8f83755ab86624dd28517a5bc7206887
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
@@ -377,6 +444,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: cd8bb41f4923b47979cf46becfd0f63d
+      internalID: 21300024
       vertices: []
       indices: 
       edges: []
@@ -397,6 +465,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1f7a3a80350634df291cf7828fe66a9c
+      internalID: 21300026
       vertices: []
       indices: 
       edges: []
@@ -417,6 +486,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a86f53e8b477a4eab900d7573229eaa1
+      internalID: 21300028
       vertices: []
       indices: 
       edges: []
@@ -437,6 +507,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b1ab87761111046e6bbed7da4799d918
+      internalID: 21300030
       vertices: []
       indices: 
       edges: []
@@ -445,10 +516,29 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: e94091f80d28b45e1b7da83aefd91e33
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      villainfadein_7: 21300014
+      villainfadein_2: 21300004
+      villainfadein_11: 21300022
+      villainfadein_9: 21300018
+      villainfadein_8: 21300016
+      villainfadein_10: 21300020
+      villainfadein_6: 21300012
+      villainfadein_1: 21300002
+      villainfadein_4: 21300008
+      villainfadein_12: 21300024
+      villainfadein_5: 21300010
+      villainfadein_0: 21300000
+      villainfadein_3: 21300006
+      villainfadein_13: 21300026
+      villainfadein_14: 21300028
+      villainfadein_15: 21300030
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
